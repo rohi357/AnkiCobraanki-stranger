@@ -28,18 +28,18 @@ API_ID = int(os.environ.get("API_ID", "21567814"))
 # ------------------------------------------------
 API_HASH = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
 # ----------------D--------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7734663845:AAEWTe4hMIhuLdG6RkGElp7NYubpRXbF0JY")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7954807388:AAGeH_MMFHWdj3nwBPfkyLVF1PZ7I4rIEGk")
 # -----------------A-------------------------------
-BOT_USERNAME = os.environ.get("woodcraft_strangerbot")
+BOT_USERNAME = os.environ.get("extractor_protxtbot")
 # ------------------X------------------------------
 OWNER_ID = int(os.environ.get("OWNER_ID", "6126688051"))
 # ------------------X------------------------------
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6126688051").split()))
 # ------------------------------------------------
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002335220633"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002668283003"))
 # ------------------------------------------------
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://wadiro6523:08AwfhhKRdQaS1i6@cluster0.krzxuop.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002335220633"))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "-1002668283003"))
 
